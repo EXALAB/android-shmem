@@ -1,3 +1,15 @@
+# Important
+
+This project is forked from [android-shmem](https://github.com/pelya/android-shmem), with some modification to compile for all architecture that could run [AnLinux](https://github.com/EXALAB/AnLinux-App)
+
+## How to:
+
+1. Install all the required packages:
+
+> apt-get install crossbuild-essential-arm64 crossbuild-essential-armhf crossbuild-essential-amd64 crossbuild-essential-i386
+
+2. Run ./build.sh and colect the binary in output folder.
+
 android-shmem
 =============
 
